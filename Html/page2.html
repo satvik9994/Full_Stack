@@ -1,0 +1,64 @@
+<!-- page2.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Choose Your Hacking Path</title>
+<style>
+    body {
+        background-color: black;
+        color: #00ff00;
+        font-family: 'Courier New', monospace;
+        padding: 20px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+        animation: glitch 1s infinite;
+    }
+    @keyframes glitch {
+        0% { text-shadow: 2px 0 red, -2px 0 blue; }
+        20% { text-shadow: -2px 0 red, 2px 0 blue; }
+        40% { text-shadow: 2px 0 red, -2px 0 blue; }
+        60% { text-shadow: -2px 0 red, 2px 0 blue; }
+        80% { text-shadow: 2px 0 red, -2px 0 blue; }
+        100% { text-shadow: -2px 0 red, 2px 0 blue; }
+    }
+    .button-container {
+        margin-top: 40px;
+    }
+    .hack-btn {
+        background-color: transparent;
+        color: #00ff00;
+        border: 2px solid #00ff00;
+        padding: 15px 30px;
+        margin: 10px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .hack-btn:hover {
+        background-color: #00ff00;
+        color: black;
+    }
+</style>
+</head>
+<body>
+    <h1>WHICH HACKING DO YOU WANT TO LEARN?</h1>
+    <div class="button-container">
+        <button class="hack-btn" onclick="goToPage('webhacking.html')">Web Hacking</button>
+        <button class="hack-btn" onclick="goToPage('wifi.html')">Wi-Fi Hacking</button>
+        <button class="hack-btn" onclick="goToPage('social.html')">Social Engineering</button>
+        <button class="hack-btn" onclick="goToPage('android.html')">Android Hacking</button>
+        <button class="hack-btn" onclick="goToPage('crypto.html')">Cryptography</button>
+        <button class="hack-btn" onclick="goToPage('osint.html')">OSINT</button>
+    </div>
+
+<script>
+    function goToPage(page) {
+        window.location.href = page;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(209, 203, 170);
+}
+
+h1{
+    font-size: 33px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(21, 10, 10);
+}
+
+.article{
+    color: rgb(35, 145, 108);
+}
+.para{
+    color: rgb(53, 152, 152);
+}
+
+.container{
+    color: rgb(11, 64, 110);
+    margin: 66px;
+}
+
+nav:hover{
+    color: blueviolet;
+}

@@ -1,0 +1,63 @@
+body { /*Type Selector*/
+    background-color: rgb(238, 241, 244);
+    background-image: url(https://unsplash.com/photos/a-blurry-orange-and-yellow-background-with-a-white-border-MJhgFWr_HAc);
+    font-family: Arial, sans-serif;
+}
+
+h1,h2 {  /*Grouping Selector*/
+    text-align: center;
+    color: rgb(9, 48, 137);
+    text-transform: uppercase;
+}
+
+#post article.p { /*ID Selector*/
+    color: #444;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+header {
+    background-color: rgb(238, 188, 25);
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(28, 28, 183);
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+#about p{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+table {
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+th {
+    background-color: rgb(180, 139, 219);
+    font-weight: bold;
+}
+
+td, th {
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(32, 22, 22);
+    color: white;
+    padding: 10px;
+}

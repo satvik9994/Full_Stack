@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+
+    <form action="/submit" method="post">
+
+        <label for="name" id="name1">First Name:</label><br>
+        <input type="text" id="firstname" name="First name" required><br><br>
+          
+        <label for="name" id="name2">Last Name:</label><br>
+        <input type="text" id="lastname" name="Last name" required><br><br>
+
+        <label for="email" id="email1">Email:</label><br>
+        <input type="email" id="email" name="Email" required><br><br>
+
+        <label for="phone number" id="phonenumber">Phone Number:</label><br>
+        <input type="number" id="number" name="phone number" required><br><br>
+
+        <div>
+            <label for="position" id="position">Position Applied For:</label><br>
+            <select>
+                <option value="">--Select Position--</option>
+                <option value="Manager">Managers</option>
+                <option value="SDE">Software development Engg</option>
+                <option value="VP">Vice President</option>
+            </select><br><br>
+
+             <label for="exp" id="exp">Years of Experience:</label><br>
+             <input type="number" id="exp" name="exp" required><br><br>
+
+             <label for="coverletter" id="cover">Cover Letter:</label><br>
+             <textarea id="cover" name="coverletter"></textarea><br><br>
+
+        </div>
+            <label for="startdate" id="start">Available Start Date:</label><br>
+            <input type="number" id="exp" name="exp" required><br><br>
+        <div2>
+
+        </div2>
+    </form>
+</body>
+</html>
